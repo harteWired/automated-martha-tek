@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+  <defs>
+    <marker id="arrowA" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#c9c5b6"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6fd1b4"/>
+    </marker>
+    <marker id="arrowC" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#c9c5b6"/>
+    </marker>
+    <marker id="arrowE" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#c9c5b6"/>
+    </marker>
+    <marker id="arrowF" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8b8899"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e6a562"/>
+    </marker>
+    <marker id="arrowH" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8b8899"/>
+    </marker>
+    <filter id="editorialGrain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.08 0"/>
+    </filter>
+    <radialGradient id="editorialTopGlow" cx="50%" cy="0%" r="80%">
+      <stop offset="0%" stop-color="#e6a562" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#e6a562" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+    text { font-family: 'Inter', 'Noto Sans', 'Helvetica Neue', 'DejaVu Sans', sans-serif; }
+    .title { font-size: 46px; font-weight: 700; fill: #f5efe0; font-family: 'Playfair Display', 'Noto Serif Display', 'DejaVu Serif', Georgia, serif; }
+    .subtitle { font-size: 12px; font-weight: 500; fill: #e6a562; letter-spacing: 0.3em; text-transform: uppercase; }
+    .section { font-size: 13px; font-weight: 700; fill: #f5efe0; letter-spacing: 1.4px; }
+    .section-sub { font-size: 12px; font-weight: 500; fill: #b5b3a8; }
+    .node-title { font-size: 18px; font-weight: 700; fill: #f5efe0; }
+    .node-sub { font-size: 12px; font-weight: 500; fill: #d4cfbf; }
+    .node-type { font-size: 10px; font-weight: 700; fill: #b5b3a8; letter-spacing: 0.08em; }
+    .arrow-label { font-size: 12px; font-weight: 600; fill: #c9c5b6; }
+    .legend { font-size: 12px; font-weight: 500; fill: #d4cfbf; }
+    .footnote { font-size: 12px; font-weight: 500; fill: #b5b3a8; }
+    </style>
+  </defs>
+  <rect width="1200.0" height="760.0" fill="#15151e"/>
+  <rect width="1200.0" height="400" fill="url(#editorialTopGlow)"/>
+  <rect width="1200.0" height="760.0" filter="url(#editorialGrain)" opacity="0.6"/>
+  <text x="600.0" y="56" text-anchor="middle" class="title">Controller Data Flow</text>
+  <text x="600.0" y="82" text-anchor="middle" class="subtitle">Three sensors · ESP32-S3 core · six outputs</text>
+  <rect x="40.0" y="140.0" width="260.0" height="560.0" rx="16.0" fill="none" stroke="rgba(245,239,224,0.12)" stroke-width="1.4"/>
+  <text x="58.0" y="164.0" class="section">IN // SENSORS</text>
+  <rect x="900.0" y="140.0" width="260.0" height="360.0" rx="16.0" fill="none" stroke="rgba(245,239,224,0.12)" stroke-width="1.4"/>
+  <text x="918.0" y="164.0" class="section">OUT // ACTUATORS</text>
+  <rect x="900.0" y="520.0" width="260.0" height="180.0" rx="16.0" fill="none" stroke="rgba(245,239,224,0.12)" stroke-width="1.4"/>
+  <text x="918.0" y="544.0" class="section">API // SERVICES</text>
+  <path d="M 260.0,234.0 L 280.4,234.0 L 459.6,390.0 L 480.0,390.0" fill="none" stroke="#c9c5b6" stroke-width="1.6" marker-end="url(#arrowA)"/>
+  <path d="M 260.0,370.0 L 280.4,370.0 L 459.6,390.0 L 480.0,390.0" fill="none" stroke="#c9c5b6" stroke-width="1.6" marker-end="url(#arrowA)"/>
+  <path d="M 260.0,506.0 L 280.4,506.0 L 459.6,390.0 L 480.0,390.0" fill="none" stroke="#c9c5b6" stroke-width="1.6" marker-end="url(#arrowA)"/>
+  <path d="M 720.0,390.0 L 740.4,390.0 L 919.6,222.0 L 940.0,222.0" fill="none" stroke="#c9c5b6" stroke-width="1.6" marker-end="url(#arrowA)"/>
+  <path d="M 720.0,390.0 L 740.4,390.0 L 919.6,298.0 L 940.0,298.0" fill="none" stroke="#c9c5b6" stroke-width="1.6" marker-end="url(#arrowA)"/>
+  <path d="M 720.0,390.0 L 740.4,390.0 L 919.6,374.0 L 940.0,374.0" fill="none" stroke="#c9c5b6" stroke-width="1.6" marker-end="url(#arrowA)"/>
+  <path d="M 720.0,390.0 L 740.4,390.0 L 919.6,450.0 L 940.0,450.0" fill="none" stroke="#c9c5b6" stroke-width="1.6" marker-end="url(#arrowA)"/>
+  <path d="M 720.0,390.0 L 740.4,390.0 L 919.6,588.0 L 940.0,588.0" fill="none" stroke="#6fd1b4" stroke-width="1.6" marker-end="url(#arrowB)"/>
+  <path d="M 720.0,390.0 L 740.4,390.0 L 919.6,664.0 L 940.0,664.0" fill="none" stroke="#6fd1b4" stroke-width="1.6" marker-end="url(#arrowB)"/>
+  <rect x="80.0" y="200.0" width="180.0" height="68.0" rx="8.0" fill="#24222f" stroke="rgba(245,239,224,0.18)" stroke-width="1.8"/>
+  <text x="170.0" y="234.0" text-anchor="middle" class="node-title">SCD30</text>
+  <text x="170.0" y="256.0" text-anchor="middle" class="node-sub">CO2 · ppm</text>
+  <rect x="80.0" y="336.0" width="180.0" height="68.0" rx="8.0" fill="#24222f" stroke="rgba(245,239,224,0.18)" stroke-width="1.8"/>
+  <text x="170.0" y="370.0" text-anchor="middle" class="node-title">SHT45</text>
+  <text x="170.0" y="392.0" text-anchor="middle" class="node-sub">RH · temp</text>
+  <rect x="80.0" y="472.0" width="180.0" height="68.0" rx="8.0" fill="#24222f" stroke="rgba(245,239,224,0.18)" stroke-width="1.8"/>
+  <text x="170.0" y="506.0" text-anchor="middle" class="node-title">DS18B20</text>
+  <text x="170.0" y="528.0" text-anchor="middle" class="node-sub">substrate temp</text>
+  <rect x="480.0" y="340.0" width="240.0" height="100.0" rx="8.0" fill="#24222f" stroke="#e6a562" stroke-width="2.0"/>
+  <rect x="486.0" y="346.0" width="228.0" height="88.0" rx="5.0" fill="none" stroke="#e6a562" stroke-width="1.2" opacity="0.65"/>
+  <text x="600.0" y="358.0" text-anchor="middle" class="node-type">ORCHESTRATOR</text>
+  <text x="600.0" y="396.0" text-anchor="middle" class="node-title">ESP32-S3</text>
+  <text x="600.0" y="418.0" text-anchor="middle" class="node-sub">control loops · hysteresis</text>
+  <rect x="940.0" y="190.0" width="180.0" height="64.0" rx="8.0" fill="#24222f" stroke="rgba(245,239,224,0.18)" stroke-width="1.8"/>
+  <text x="1030.0" y="222.0" text-anchor="middle" class="node-title">Fogger</text>
+  <text x="1030.0" y="244.0" text-anchor="middle" class="node-sub">RH &lt; 85%</text>
+  <rect x="940.0" y="266.0" width="180.0" height="64.0" rx="8.0" fill="#24222f" stroke="rgba(245,239,224,0.18)" stroke-width="1.8"/>
+  <text x="1030.0" y="298.0" text-anchor="middle" class="node-title">FAE Fans</text>
+  <text x="1030.0" y="320.0" text-anchor="middle" class="node-sub">CO2 &gt; 950 ppm</text>
+  <rect x="940.0" y="342.0" width="180.0" height="64.0" rx="8.0" fill="#24222f" stroke="rgba(245,239,224,0.18)" stroke-width="1.8"/>
+  <text x="1030.0" y="374.0" text-anchor="middle" class="node-title">UVC</text>
+  <text x="1030.0" y="396.0" text-anchor="middle" class="node-sub">timer</text>
+  <rect x="940.0" y="418.0" width="180.0" height="64.0" rx="8.0" fill="#24222f" stroke="rgba(245,239,224,0.18)" stroke-width="1.8"/>
+  <text x="1030.0" y="450.0" text-anchor="middle" class="node-title">Pump</text>
+  <text x="1030.0" y="472.0" text-anchor="middle" class="node-sub">water level</text>
+  <rect x="940.0" y="556.0" width="180.0" height="64.0" rx="8.0" fill="#24222f" stroke="#6fd1b4" stroke-width="1.8"/>
+  <text x="1030.0" y="588.0" text-anchor="middle" class="node-title">Dashboard</text>
+  <text x="1030.0" y="610.0" text-anchor="middle" class="node-sub">martha.local</text>
+  <rect x="940.0" y="632.0" width="180.0" height="64.0" rx="8.0" fill="#24222f" stroke="#6fd1b4" stroke-width="1.8"/>
+  <text x="1030.0" y="664.0" text-anchor="middle" class="node-title">Home Assistant</text>
+  <text x="1030.0" y="686.0" text-anchor="middle" class="node-sub">REST</text>
+  <line x1="60.0" y1="710.0" x2="90.0" y2="710.0" stroke="#c9c5b6" stroke-width="1.6" marker-end="url(#arrowA)"/>
+  <text x="100.0" y="714.0" class="legend">Sensor read</text>
+  <line x1="60.0" y1="732.0" x2="90.0" y2="732.0" stroke="#c9c5b6" stroke-width="1.6" marker-end="url(#arrowA)"/>
+  <text x="100.0" y="736.0" class="legend">Relay command</text>
+  <line x1="60.0" y1="754.0" x2="90.0" y2="754.0" stroke="#6fd1b4" stroke-width="1.6" marker-end="url(#arrowB)"/>
+  <text x="100.0" y="758.0" class="legend">Data publish</text>
+</svg>
