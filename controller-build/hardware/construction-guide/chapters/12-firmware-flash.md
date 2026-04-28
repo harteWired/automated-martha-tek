@@ -37,8 +37,8 @@ everything — no manual library management.
 ## Step 2 — Clone the Firmware Repository
 
 ```bash
-git clone https://github.com/aes87/automated-martha-tek.git
-cd automated-martha-tek/controller-build/firmware
+git clone https://github.com/harteWired/mushroom-growing-automation.git
+cd mushroom-growing-automation/controller-build/firmware
 ```
 
 Open the `controller-build/firmware/` folder in VS Code. PlatformIO will detect `platformio.ini`

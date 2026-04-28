@@ -17,7 +17,7 @@ A highly-featured ESP32-S3-based controller for a Martha tent fruiting chamber. 
 > Reference build credit: u/mettalmag (r/MushroomGrowers, Jan 2025) — adapted from a 200sqm commercial greenhouse to a home Martha tent.
 > Original post: https://www.reddit.com/r/MushroomGrowers/comments/1rao1ms/
 
-**→ [Shopping List](https://aes87.github.io/automated-martha-tek/controller-build/hardware/diy-controller-shopping-list.html)** — interactive checklist with persistent notes, syncs to your GitHub account.
+**→ [Shopping List](https://harteWired.github.io/mushroom-growing-automation/controller-build/hardware/diy-controller-shopping-list.html)** — interactive checklist with persistent notes, syncs to your GitHub account.
 
 ## Contents
 

@@ -4,7 +4,7 @@
 >
 > Original post: https://www.reddit.com/r/MushroomGrowers/comments/sbnlib/gourmet_marth_2_dot_o_is_up_and_running_much/
 
-**→ [Shopping List](https://aes87.github.io/mushroom-growing-automation/martha-tent-build/martha-tent-shopping-list.html)** — interactive checklist with persistent notes, syncs to your GitHub account.
+**→ [Shopping List](https://harteWired.github.io/mushroom-growing-automation/martha-tent-build/martha-tent-shopping-list.html)** — interactive checklist with persistent notes, syncs to your GitHub account.
 
 ## Contents
 
@@ -228,7 +228,7 @@ Configure the controllers per the [CO2 Controller](#co2-controller-fae-automatio
 
 ## Cost Summary
 
-**Rough total: ~$250 USD** (circa 2022 prices — current pricing will differ). See the [Shopping List](https://aes87.github.io/mushroom-growing-automation/martha-tent-build/martha-tent-shopping-list.html) for up-to-date links and prices.
+**Rough total: ~$250 USD** (circa 2022 prices — current pricing will differ). See the [Shopping List](https://harteWired.github.io/mushroom-growing-automation/martha-tent-build/martha-tent-shopping-list.html) for up-to-date links and prices.
 
 The CO2 controller ($161 in 2022) and two AC Infinity S4 fans (~$99 each) are the main costs. The tub, fogger, ducting, velcro, and paint are comparatively cheap.
 

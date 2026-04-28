@@ -40,12 +40,12 @@ The Martha tent is a greenhouse shelving unit with automated environmental contr
 | Guide | Description |
 |:------|:------------|
 | [Martha Tent Build Guide](martha-tent-build/martha-tent-build-guide.md) | Part 1 — complete tent assembly, wiring, and setup |
-| [Martha Tent Shopping List](https://aes87.github.io/mushroom-growing-automation/martha-tent-build/martha-tent-shopping-list.html) | Interactive checklist with cost tracking |
+| [Martha Tent Shopping List](https://harteWired.github.io/mushroom-growing-automation/martha-tent-build/martha-tent-shopping-list.html) | Interactive checklist with cost tracking |
 | [DIY Controller Build Guide](controller-build/hardware/diy-controller-build-guide.md) | Part 2A — ESP32-S3 hardware build |
-| [DIY Controller Shopping List](https://aes87.github.io/mushroom-growing-automation/controller-build/hardware/diy-controller-shopping-list.html) | Interactive checklist with cost tracking |
+| [DIY Controller Shopping List](https://harteWired.github.io/mushroom-growing-automation/controller-build/hardware/diy-controller-shopping-list.html) | Interactive checklist with cost tracking |
 | [Construction Guide](controller-build/hardware/construction-guide/chapters/00-overview.md) | 13-chapter step-by-step controller assembly |
 | [Firmware README](controller-build/firmware/README.md) | Part 2B — firmware quickstart, architecture, API reference |
-| [Mushroom Strain Guide](https://aes87.github.io/mushroom-growing-automation/growing/strain-guide.html) | 25 species, filterable by difficulty, with vendor links |
+| [Mushroom Strain Guide](https://harteWired.github.io/mushroom-growing-automation/growing/strain-guide.html) | 25 species, filterable by difficulty, with vendor links |
 
 > [!WARNING]
 > Parts 2A and 2B are an experiment in AI-assisted hardware and firmware design. The controller guide and firmware were written collaboratively with an AI assistant and have not been physically built or tested. Review the hardware, wiring, and firmware carefully before trusting them — or wait for the author to report back.
