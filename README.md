@@ -1,5 +1,7 @@
 # Automated Martha Tek
 
+[![by harteWired](https://img.shields.io/badge/by-harteWired-e6a562?style=flat&labelColor=15151e)](https://github.com/harteWired)
+
 Fully automated Martha tent fruiting chamber — CO2-controlled FAE, humidity-controlled fogger, optional DIY ESP32-S3 controller, Home Assistant monitoring, and grow tracking from inoculation through harvest.
 
 ![Build Path — Part 1 Martha Tent (~$250) is a self-contained standalone build and branches into two optional tracks: the automation track (Part 2 DIY Controller ~$290–360 → Part 3 HA Monitoring) and the biology track (Part 4 Inoculating → Part 5 Growing). Amber marks the entry point; teal marks the biology track.](./docs/images/build-path.png)
